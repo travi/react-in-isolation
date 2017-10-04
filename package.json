@@ -1,0 +1,34 @@
+{
+  "name": "react-in-isolation",
+  "license": "MIT",
+  "author": "Matt Travi",
+  "repository": "travi/react-in-isolation",
+  "bugs": "https://github.com/travi/react-in-isolation/issues",
+  "homepage": "https://github.com/travi/react-in-isolation#readme",
+  "scripts": {
+    "lint:md": "globstar --node -- markdownlint **/*.md",
+    "tests:unit": "mocha --recursive test/unit",
+    "test": "run-s lint:* coverage",
+    "coverage": "nyc run-s tests:unit",
+    "commitmsg": "commitlint -e",
+    "precommit": "npm test"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@travi/any": "1.4.3",
+    "chai": "4.1.2",
+    "commitlint-config-travi": "1.1.0",
+    "cz-conventional-changelog": "2.0.0",
+    "globstar": "1.0.0",
+    "husky": "0.14.3",
+    "markdownlint-cli": "0.3.1",
+    "mocha": "4.0.0",
+    "npm-run-all": "4.1.1",
+    "nyc": "11.2.1",
+    "validate-commit-msg": "2.14.0"
+  }
+}
