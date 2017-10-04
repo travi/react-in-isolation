@@ -7,6 +7,7 @@
   "homepage": "https://github.com/travi/react-in-isolation#readme",
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
+    "lint:js": "eslint . .storybook --cache",
     "tests:unit": "mocha --recursive test/unit",
     "test": "run-s lint:* coverage",
     "coverage": "nyc run-s tests:unit",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@travi/any": "1.4.3",
+    "@travi/eslint-config-travi": "1.5.11",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.6.0",
     "babel-preset-react": "6.24.1",
