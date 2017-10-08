@@ -1,9 +1,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import {assert} from 'chai';
-import Presentational from '../../src/presentational';
+import Presentational from '../../../src/functional/create-element';
 
-suite('presentational', () => {
+suite('create element', () => {
   test('that the text renders', () => {
     const wrapper = shallow(<Presentational />);
 
