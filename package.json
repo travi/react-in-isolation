@@ -22,8 +22,13 @@
     }
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/react": "^3.2.12",
     "@travi/any": "1.4.3",
     "@travi/eslint-config-travi": "1.5.11",
+    "babel-eslint": "8.0.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.6.0",
     "babel-preset-react": "6.24.1",
@@ -40,10 +45,7 @@
     "npm-run-all": "4.1.1",
     "nyc": "11.2.1",
     "react-test-renderer": "16.0.0",
-    "validate-commit-msg": "2.14.0",
-    "@storybook/react": "^3.2.12",
-    "@storybook/addon-actions": "^3.2.12",
-    "@storybook/addon-links": "^3.2.12"
+    "validate-commit-msg": "2.14.0"
   },
   "dependencies": {
     "prop-types": "15.6.0",
