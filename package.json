@@ -14,7 +14,8 @@
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy": "gh-pages -r \"https://$GH_TOKEN@github.com/travi/react-in-isolation.git\" -d storybook-static/"
   },
   "config": {
     "commitizen": {

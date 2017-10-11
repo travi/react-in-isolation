@@ -1,3 +1,14 @@
 language: node_js
 notifications:
   email: false
+before_deploy:
+- npm run build-storybook
+- git config --global user.email "$GIT_EMAIL"
+- git config --global user.name "$GIT_NAME"
+deploy:
+- skip_cleanup: true
+  provider: script
+  script: npm run deploy
+env:
+  global:
+    secure: hiZPBQpAywhK9V5vDPmUJiEOwBvI0Sb2y+Xl5Hr9wQzfEziZ3kWP2mDNHMYphPtAesBgpCTQxshWpXS2SUwtbUdhQYuLm6rboFcRqNJi1E/h70FmM3ehoPP0tDNdXy76MVUMsMvjWpDhQ+X0lDATxa+9IzzUVZ/zE9Erz9hNmoVgGwgptq87kr9j12Hum6PiFfny0qVYZqARx0BacmNdq1On6QwzyAOte5PlHvy2zFX0OHQtQ1L3idENzXNsQ56lLctd3sXf/XEF4bBtMUi/BfjlSy1Ear3mAmPc4tGYX2q32eJ+s0ACxN1f1PUpzunaTSuMK30QgrfSzbaBZ31eqgmn2dQ99CeoJzuscuAAP0a1M8TwQjr42hRqTFR9isV/ItEGvGr5Sz7P8LB5G0GoHHad3M2T7go/Xdw3/LCVgp3+1NiFGlRG3i8TUd4ewe15E0Lm1pNaCP+rgukmtAXzRlJCzuRJExaRofnWP+sX9+2zU9S1qLHxQMClpmXjQvfm2QUtX85onAoo8fyjIaRd3lb5gXRmbzPc/r3hvMg0L18Kzk8upOx4cBXVtDppVDPdM419f9LwDQh2g5vlmnZcNNHtV9FWLHEEVjsIEo+SEviRjdIKDjzyGyd1k93gprytlVk5Bp3SKVctlR4J2J+MSChcSHshtST8Xhij5jVbJeI=
