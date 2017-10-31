@@ -7,5 +7,6 @@ import Button from '../props/button';
 const label = any.string();
 
 storiesOf('Handlers/Button', module)
-  .add('click hander', () => <input type="button" value={label} onClick={action('button clicked')} />)
+  .add('input w/ click handler', () => <input type="button" value={label} onClick={action('button input clicked')} />)
+  .add('button w/ click handler', () => <button onClick={action('button clicked')}>{label}</button>)
   .add('component', () => <Button label={label} onClick={action('button component clicked')} />);
