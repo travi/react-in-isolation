@@ -3,7 +3,9 @@ import React from 'react';
 export default class ControlledInput extends React.Component {
   state = {value: ''};
 
-  changeHandler = (event, updatedValue) => {
+  changeHandler = event => {
+    const updatedValue = event.target.value;
+
     this.setState({value: updatedValue});
   };
 
