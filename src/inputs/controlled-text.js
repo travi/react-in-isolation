@@ -1,4 +1,5 @@
 import React from 'react';
+import {func} from 'prop-types';
 
 export default class ControlledInput extends React.Component {
   state = {value: ''};
@@ -7,6 +8,7 @@ export default class ControlledInput extends React.Component {
     const updatedValue = event.target.value;
 
     this.setState({value: updatedValue});
+    this.props.onChange(event, updatedValue);
   };
 
   render() {
@@ -15,3 +17,4 @@ export default class ControlledInput extends React.Component {
 }
 
 ControlledInput.displayName = 'ControlledInput';
+ControlledInput.propTypes = {onChange: func};
