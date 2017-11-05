@@ -40,7 +40,7 @@
     "commitlint-config-travi": "1.2.5",
     "cz-conventional-changelog": "2.1.0",
     "enzyme": "3.1.0",
-    "enzyme-adapter-react-16": "1.0.3",
+    "enzyme-adapter-react-16": "1.0.4",
     "gh-pages": "1.0.0",
     "globstar": "1.0.0",
     "greenkeeper-lockfile": "1.12.0",
