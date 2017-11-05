@@ -7,3 +7,11 @@
 [![Build Status](https://img.shields.io/travis/travi/react-in-isolation.svg?style=flat)](https://travis-ci.org/travi/react-in-isolation)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+## View the [Storybook](https://storybook.js.org/) Demo
+
+```sh
+$ npm run storybook
+```
+
+Then navigate to the local address shown in your terminal
