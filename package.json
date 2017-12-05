@@ -28,7 +28,7 @@
     "@storybook/addon-actions": "3.2.17",
     "@storybook/addon-links": "3.2.17",
     "@storybook/react": "3.2.14",
-    "@travi/any": "1.5.1",
+    "@travi/any": "1.6.0",
     "@travi/eslint-config-travi": "1.5.21",
     "babel-eslint": "8.0.3",
     "babel-plugin-transform-class-properties": "6.24.1",
