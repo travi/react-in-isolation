@@ -27,7 +27,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "3.3.10",
     "@storybook/addon-links": "3.3.10",
-    "@storybook/react": "3.3.10",
+    "@storybook/react": "3.3.11",
     "@travi/any": "1.6.1",
     "@travi/eslint-config-travi": "1.5.21",
     "babel-eslint": "8.2.1",
