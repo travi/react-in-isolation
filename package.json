@@ -43,7 +43,7 @@
     "enzyme-adapter-react-16": "1.1.1",
     "gh-pages": "1.1.0",
     "globstar": "1.0.0",
-    "greenkeeper-lockfile": "1.14.0",
+    "greenkeeper-lockfile": "1.15.1",
     "husky": "0.15.0-rc.2",
     "markdownlint-cli": "0.8.2",
     "mocha": "5.2.0",
