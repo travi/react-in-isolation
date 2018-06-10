@@ -25,7 +25,7 @@
     }
   },
   "devDependencies": {
-    "@storybook/addon-actions": "3.3.10",
+    "@storybook/addon-actions": "3.4.7",
     "@storybook/addon-links": "3.4.6",
     "@storybook/react": "3.3.10",
     "@travi/any": "1.7.5",
