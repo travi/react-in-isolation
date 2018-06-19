@@ -54,7 +54,7 @@
     "validate-commit-msg": "2.14.0"
   },
   "dependencies": {
-    "prop-types": "15.6.1",
+    "prop-types": "15.6.2",
     "react": "16.4.0",
     "react-dom": "16.4.0",
     "react-router": "3.2.0",
