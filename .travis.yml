@@ -1,8 +1,6 @@
 language: node_js
 notifications:
   email: false
-before_script: npm run greenkeeper:update-lockfile
-after_script: npm run greenkeeper:upload-lockfile
 before_deploy:
 - npm run build-storybook
 - git config --global user.email "$GIT_EMAIL"
