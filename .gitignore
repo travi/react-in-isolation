@@ -1,6 +1,7 @@
 node_modules/
 lib/
 .nyc_output/
+.cache/
 storybook-static/
 
 .eslintcache
