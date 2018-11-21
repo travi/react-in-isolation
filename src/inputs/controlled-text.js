@@ -5,14 +5,18 @@ export default class ControlledInput extends React.Component {
   state = {value: ''};
 
   changeHandler = event => {
+    const {onChange} = this.props;
+
     const updatedValue = event.target.value;
 
     this.setState({value: updatedValue});
-    this.props.onChange(event, updatedValue);
+    onChange(event, updatedValue);
   };
 
   render() {
-    return <input type="text" value={this.state.value} onChange={this.changeHandler} />;
+    const {value} = this.state;
+
+    return <input type="text" value={value} onChange={this.changeHandler} />;
   }
 }
 

@@ -9,5 +9,9 @@ const label = any.string();
 
 storiesOf('Handlers/Button', module)
   .add('input w/ click handler', () => <input type="button" value={label} onClick={action('button input clicked')} />)
-  .add('button w/ click handler', () => <button onClick={action('button clicked')}>{label}</button>)
+  .add('button w/ click handler', () => (
+    <button type="button" onClick={action('button clicked')}>
+      {label}
+    </button>
+  ))
   .add('component', () => <Button label={label} onClick={action('button component clicked')} />);

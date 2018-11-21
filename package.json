@@ -30,7 +30,7 @@
     "@storybook/react": "^4.0.4",
     "@travi/any": "1.8.3",
     "@travi/babel-preset": "^2.0.0",
-    "@travi/eslint-config-travi": "^1.5.21",
+    "@travi/eslint-config-travi": "1.6.18",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "babel-preset-react": "6.24.1",

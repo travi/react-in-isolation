@@ -10,20 +10,40 @@ const paginationContainerStyles = {display: 'flex', justifyContent: 'space-betwe
 storiesOf('Navigation/Pagination/linkTo', module)
   .add('first page', () => (
     <ol style={paginationContainerStyles}>
-      <li>&nbsp;</li>
-      <li><button onClick={linkTo('Navigation/Pagination/linkTo', 'middle page')}>Next</button></li>
+      <li>
+        &nbsp;
+      </li>
+      <li>
+        <button type="button" onClick={linkTo('Navigation/Pagination/linkTo', 'middle page')}>
+          Next
+        </button>
+      </li>
     </ol>
   ))
   .add('middle page', () => (
     <ol style={paginationContainerStyles}>
-      <li><button onClick={linkTo('Navigation/Pagination/linkTo', 'first page')}>Previous</button></li>
-      <li><button onClick={linkTo('Navigation/Pagination/linkTo', 'last page')}>Next</button></li>
+      <li>
+        <button type="button" onClick={linkTo('Navigation/Pagination/linkTo', 'first page')}>
+          Previous
+        </button>
+      </li>
+      <li>
+        <button type="button" onClick={linkTo('Navigation/Pagination/linkTo', 'last page')}>
+          Next
+        </button>
+      </li>
     </ol>
   ))
   .add('last page', () => (
     <ol style={paginationContainerStyles}>
-      <li><button onClick={linkTo('Navigation/Pagination/linkTo', 'middle page')}>Previous</button></li>
-      <li>&nbsp;</li>
+      <li>
+        <button type="button" onClick={linkTo('Navigation/Pagination/linkTo', 'middle page')}>
+          Previous
+        </button>
+      </li>
+      <li>
+        &nbsp;
+      </li>
     </ol>
   ));
 
@@ -35,19 +55,39 @@ storiesOf('Navigation/Pagination/router', module)
   }))
   .add('first page', () => (
     <ol style={paginationContainerStyles}>
-      <li>&nbsp;</li>
-      <li><Link to="/middle">Next</Link></li>
+      <li>
+        &nbsp;
+      </li>
+      <li>
+        <Link to="/middle">
+          Next
+        </Link>
+      </li>
     </ol>
   ))
   .add('middle page', () => (
     <ol style={paginationContainerStyles}>
-      <li><Link to="/first">Previous</Link></li>
-      <li><Link to="/last">Next</Link></li>
+      <li>
+        <Link to="/first">
+          Previous
+        </Link>
+      </li>
+      <li>
+        <Link to="/last">
+          Next
+        </Link>
+      </li>
     </ol>
   ))
   .add('last page', () => (
     <ol style={paginationContainerStyles}>
-      <li><Link to="/middle">Previous</Link></li>
-      <li>&nbsp;</li>
+      <li>
+        <Link to="/middle">
+          Previous
+        </Link>
+      </li>
+      <li>
+        &nbsp;
+      </li>
     </ol>
   ));
