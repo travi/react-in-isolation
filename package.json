@@ -27,7 +27,7 @@
     "@babel/register": "^7.0.0",
     "@storybook/addon-actions": "4.0.9",
     "@storybook/addon-links": "4.0.9",
-    "@storybook/react": "4.0.8",
+    "@storybook/react": "4.0.9",
     "@travi/any": "1.8.3",
     "@travi/babel-preset": "^2.0.0",
     "@travi/eslint-config-travi": "1.7.0",
