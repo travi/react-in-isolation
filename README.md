@@ -28,9 +28,15 @@ Navigate to the local address shown in your terminal
 
 ### Hosted
 
-Visit <https://react-in-isolation-demo.netlify.com>
+Visit <https://react-in-isolation-demo.travi.org>
 
-### Contribute
+## Run the Automated Verification
+
+```sh
+$ npm test
+```
+
+## Contribute
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/travi/react-in-isolation.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
