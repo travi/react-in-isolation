@@ -1,6 +1,6 @@
 # react-in-isolation
 
-components for my ["Learn React in Isolation" talk](https://react-in-isolation.netlify.com/)
+components for my ["Learn React in Isolation" talk](https://react-in-isolation.travi.org/)
 
 [![license](https://img.shields.io/github/license/travi/react-in-isolation.svg)](LICENSE)
 [![Build Status](https://img.shields.io/travis/travi/react-in-isolation.svg?style=flat)](https://travis-ci.org/travi/react-in-isolation)
