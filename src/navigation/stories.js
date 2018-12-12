@@ -5,7 +5,13 @@ import {linkTo} from '@storybook/addon-links';
 import {Link} from 'react-router';
 import storyRouter from 'storybook-router';
 
-const paginationContainerStyles = {display: 'flex', justifyContent: 'space-between', padding: 0, listStyleType: 'none'};
+const paginationContainerStyles = {
+  display: 'flex',
+  justifyContent: 'space-between',
+  padding: 0,
+  listStyleType: 'none',
+  marginTop: 50
+};
 
 storiesOf('Navigation/Pagination/linkTo', module)
   .add('first page', () => (
