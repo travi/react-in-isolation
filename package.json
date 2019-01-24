@@ -26,7 +26,7 @@
   "devDependencies": {
     "@babel/register": "^7.0.0",
     "@storybook/addon-actions": "4.1.11",
-    "@storybook/addon-info": "4.1.10",
+    "@storybook/addon-info": "4.1.11",
     "@storybook/addon-links": "4.1.9",
     "@storybook/react": "4.1.9",
     "@travi/any": "1.8.4",
