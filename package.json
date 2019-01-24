@@ -27,7 +27,7 @@
     "@babel/register": "^7.0.0",
     "@storybook/addon-actions": "4.1.11",
     "@storybook/addon-info": "4.1.11",
-    "@storybook/addon-links": "4.1.9",
+    "@storybook/addon-links": "4.1.11",
     "@storybook/react": "4.1.9",
     "@travi/any": "1.8.4",
     "@travi/babel-preset": "3.0.0",
