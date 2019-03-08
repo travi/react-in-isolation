@@ -49,7 +49,7 @@
     "nyc": "^13.1.0",
     "react-test-renderer": "16.7.0",
     "sinon": "7.2.3",
-    "storybook-addon-react-docgen": "1.0.4",
+    "storybook-addon-react-docgen": "1.1.5",
     "validate-commit-msg": "2.14.0"
   },
   "dependencies": {
