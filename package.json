@@ -37,7 +37,7 @@
     "babel-preset-react": "6.24.1",
     "chai": "^4.2.0",
     "commitlint-config-travi": "^1.2.31",
-    "cz-conventional-changelog": "3.0.1",
+    "cz-conventional-changelog": "3.0.2",
     "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.7.1",
     "globstar": "1.0.0",
