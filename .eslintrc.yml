@@ -1,2 +1,4 @@
-extends: '@travi/travi/rules/es6'
-parser: babel-eslint
+extends:
+  - '@travi'
+  - '@travi/react'
+  - '@travi/mocha'
