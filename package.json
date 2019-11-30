@@ -28,7 +28,7 @@
     "@storybook/addon-actions": "5.2.7",
     "@storybook/addon-info": "5.2.7",
     "@storybook/addon-links": "5.2.7",
-    "@storybook/react": "5.2.6",
+    "@storybook/react": "5.2.7",
     "@travi/any": "2.0.6",
     "@travi/babel-preset": "3.0.7",
     "@travi/eslint-config": "1.0.27",
