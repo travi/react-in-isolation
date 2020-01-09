@@ -43,7 +43,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "globstar": "1.0.0",
-    "husky": "^3.0.3",
+    "husky": "^4.0.2",
     "markdownlint-cli": "^0.21.0",
     "mocha": "6.2.2",
     "netlify-cli": "^2.21.0",
