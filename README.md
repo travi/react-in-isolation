@@ -3,7 +3,7 @@
 components for my ["Learn React in Isolation" talk](https://react-in-isolation.travi.org/)
 
 [![license](https://img.shields.io/github/license/travi/react-in-isolation.svg)](LICENSE)
-[![Build Status](https://img.shields.io/travis/travi/react-in-isolation.svg?style=flat)](https://travis-ci.org/travi/react-in-isolation)
+[![Build Status](https://img.shields.io/travis/com/travi/react-in-isolation.svg?style=flat)](https://travis-ci.com/travi/react-in-isolation)
 
 ## View the [Storybook](https://storybook.js.org/) Demo
 
