@@ -2,8 +2,17 @@
 
 components for my ["Learn React in Isolation" talk](https://react-in-isolation.travi.org/)
 
-[![license](https://img.shields.io/github/license/travi/react-in-isolation.svg)](LICENSE)
+<!--status-badges start -->
+
 [![Build Status](https://img.shields.io/travis/com/travi/react-in-isolation.svg?style=flat)](https://travis-ci.com/travi/react-in-isolation)
+
+<!--status-badges end -->
+
+<!--consumer-badges start -->
+
+[![license](https://img.shields.io/github/license/travi/react-in-isolation.svg)](LICENSE)
+
+<!--consumer-badges end -->
 
 ## View the [Storybook](https://storybook.js.org/) Demo
 
@@ -38,9 +47,13 @@ $ npm test
 
 ## Contribute
 
+<!--contribution-badges start -->
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/travi/react-in-isolation.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![PRs Welcome][PRs-badge]][PRs-link]
+
+<!--contribution-badges end -->
 
 [PRs-link]: http://makeapullrequest.com
 [PRs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
