@@ -51,7 +51,7 @@
     "nyc": "15.0.1",
     "react-test-renderer": "16.13.1",
     "sinon": "9.0.2",
-    "storybook-addon-react-docgen": "1.2.32",
+    "storybook-addon-react-docgen": "1.2.33",
     "validate-commit-msg": "2.14.0"
   },
   "dependencies": {
