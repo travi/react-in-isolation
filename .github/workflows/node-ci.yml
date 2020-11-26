@@ -25,3 +25,21 @@ jobs:
           node-version: '${{ steps.nvm.outputs.NVMRC }}'
       - uses: bahmutov/npm-install@v1
       - run: npm test
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Read .nvmrc
+        run: 'echo ::set-output name=NVMRC::$(cat .nvmrc)'
+        id: nvm
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '${{ steps.nvm.outputs.NVMRC }}'
+      - uses: bahmutov/npm-install@v1
+      - run: npm run deploy:netlify
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
