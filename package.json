@@ -1,6 +1,7 @@
 {
   "name": "react-in-isolation",
   "license": "MIT",
+  "private": true,
   "author": "Matt Travi",
   "repository": "travi/react-in-isolation",
   "bugs": "https://github.com/travi/react-in-isolation/issues",
