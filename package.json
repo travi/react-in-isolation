@@ -14,7 +14,7 @@
     "coverage": "nyc run-s tests:unit",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "predeploy": "run-s build-storybook",
+    "predeploy:netlify": "run-s build-storybook",
     "deploy:netlify": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./storybook-static/ --prod"
   },
   "config": {
