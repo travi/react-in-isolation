@@ -29,7 +29,7 @@
     "@storybook/addon-links": "6.1.20",
     "@storybook/react": "6.1.20",
     "@travi/any": "2.0.16",
-    "@travi/babel-preset": "3.0.45",
+    "@travi/babel-preset": "3.0.46",
     "@travi/eslint-config": "1.0.62",
     "@travi/eslint-config-mocha": "1.0.9",
     "@travi/eslint-config-react": "1.0.53",
