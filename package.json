@@ -23,7 +23,7 @@
     }
   },
   "devDependencies": {
-    "@babel/register": "7.15.3",
+    "@babel/register": "7.16.0",
     "@storybook/addon-actions": "6.3.12",
     "@storybook/addon-info": "5.3.21",
     "@storybook/addon-links": "6.3.12",
