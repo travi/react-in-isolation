@@ -32,7 +32,7 @@
     "@travi/babel-preset": "3.0.68",
     "@travi/eslint-config": "1.0.87",
     "@travi/eslint-config-mocha": "1.0.12",
-    "@travi/eslint-config-react": "1.0.63",
+    "@travi/eslint-config-react": "1.0.64",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.2.3",
     "babel-preset-react": "6.24.1",
