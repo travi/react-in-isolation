@@ -36,7 +36,7 @@
     "babel-loader": "8.2.3",
     "babel-preset-react": "6.24.1",
     "chai": "4.3.6",
-    "commitlint-config-travi": "1.4.8",
+    "commitlint-config-travi": "1.4.9",
     "cz-conventional-changelog": "3.3.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
