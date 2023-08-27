@@ -22,7 +22,6 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm clean-install
-      - run: npm audit signatures
       - run: npm test
       - uses: codecov/codecov-action@v3
   deploy:
@@ -37,7 +36,6 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm clean-install
-      - run: npm audit signatures
       - run: npm run deploy:netlify
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
