@@ -24,6 +24,7 @@ jobs:
       - run: npm clean-install
       - run: npm audit signatures
       - run: npm test
+      - uses: codecov/codecov-action@v3
   deploy:
     if: github.ref == 'refs/heads/master'
     needs: verify

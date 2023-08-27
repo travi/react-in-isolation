@@ -9,15 +9,15 @@
   "scripts": {
     "lint:md": "remark . --frail",
     "lint:js": "eslint . .storybook --cache",
-    "tests:unit": "mocha --recursive test/unit",
-    "test": "run-s lint:* coverage",
-    "coverage": "nyc run-s tests:unit",
+    "test:unit:base": "mocha --recursive test/unit",
+    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "generate:md": "remark . --output",
     "predeploy:netlify": "run-s build-storybook",
     "deploy:netlify": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./storybook-static/ --prod",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test:unit": "cross-env NODE_ENV=test c8 run-s test:unit:base"
   },
   "config": {
     "commitizen": {
@@ -37,8 +37,10 @@
     "@travi/eslint-config-react": "1.0.79",
     "babel-loader": "8.2.4",
     "babel-preset-react": "6.24.1",
+    "c8": "8.0.1",
     "chai": "4.3.6",
     "commitlint-config-travi": "1.4.10",
+    "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
@@ -47,7 +49,6 @@
     "mocha": "9.2.2",
     "netlify-cli": "8.1.4",
     "npm-run-all": "4.1.5",
-    "nyc": "15.1.0",
     "react-test-renderer": "17.0.2",
     "remark-cli": "10.0.1",
     "remark-preset-lint-travi": "2.0.9",

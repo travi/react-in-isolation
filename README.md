@@ -5,6 +5,7 @@ components for my ["Learn React in Isolation" talk](https://react-in-isolation.t
 <!--status-badges start -->
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
+[![Codecov][coverage-badge]][coverage-link]
 
 <!--status-badges end -->
 
@@ -66,3 +67,7 @@ $ npm test
 [github-actions-ci-link]: https://github.com/travi/react-in-isolation/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
 
 [github-actions-ci-badge]: https://github.com/travi/react-in-isolation/workflows/Node.js%20CI/badge.svg
+
+[coverage-link]: https://codecov.io/github/travi/react-in-isolation
+
+[coverage-badge]: https://img.shields.io/codecov/c/github/travi/react-in-isolation?logo=codecov
