@@ -16,7 +16,8 @@
     "build-storybook": "build-storybook",
     "generate:md": "remark . --output",
     "predeploy:netlify": "run-s build-storybook",
-    "deploy:netlify": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./storybook-static/ --prod"
+    "deploy:netlify": "netlify deploy --site=$NETLIFY_SITE_ID --auth=$NETLIFY_ACCESS_TOKEN --dir=./storybook-static/ --prod",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
@@ -42,7 +43,7 @@
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
     "globstar": "1.0.0",
-    "husky": "7.0.4",
+    "husky": "8.0.3",
     "mocha": "9.2.2",
     "netlify-cli": "8.1.4",
     "npm-run-all": "4.1.5",
