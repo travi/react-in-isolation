@@ -3,7 +3,7 @@ name: Node.js CI
   push:
     branches:
       - master
-      - 'renovate/**'
+      - renovate/**
   pull_request:
     types:
       - opened
@@ -16,14 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Read .nvmrc
-        run: 'echo ::set-output name=NVMRC::$(cat .nvmrc)'
-        id: nvm
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: '${{ steps.nvm.outputs.NVMRC }}'
-      - uses: bahmutov/npm-install@v1
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm clean-install
+      - run: npm audit signatures
       - run: npm test
   deploy:
     if: github.ref == 'refs/heads/master'
@@ -31,14 +30,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Read .nvmrc
-        run: 'echo ::set-output name=NVMRC::$(cat .nvmrc)'
-        id: nvm
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: '${{ steps.nvm.outputs.NVMRC }}'
-      - uses: bahmutov/npm-install@v1
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm clean-install
+      - run: npm audit signatures
       - run: npm run deploy:netlify
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
