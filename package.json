@@ -61,7 +61,7 @@
     "remark-preset-lint-travi": "2.0.10",
     "remark-toc": "8.0.1",
     "sinon": "15.2.0",
-    "storybook-addon-react-docgen": "1.2.42",
+    "storybook-addon-react-docgen": "1.2.44",
     "validate-commit-msg": "2.14.0"
   }
 }
