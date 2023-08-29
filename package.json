@@ -33,10 +33,10 @@
   },
   "devDependencies": {
     "@babel/register": "7.22.5",
-    "@storybook/addon-actions": "6.4.19",
+    "@storybook/addon-actions": "6.5.16",
     "@storybook/addon-info": "5.3.21",
-    "@storybook/addon-links": "6.4.19",
-    "@storybook/react": "6.4.19",
+    "@storybook/addon-links": "6.5.16",
+    "@storybook/react": "6.5.16",
     "@travi/any": "2.1.8",
     "@travi/babel-preset": "3.0.106",
     "@travi/eslint-config": "1.0.96",
