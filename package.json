@@ -57,7 +57,7 @@
     "netlify-cli": "16.1.0",
     "npm-run-all2": "6.0.6",
     "react-test-renderer": "16.14.0",
-    "remark-cli": "10.0.1",
+    "remark-cli": "11.0.0",
     "remark-preset-lint-travi": "2.0.10",
     "remark-toc": "8.0.1",
     "sinon": "15.2.0",
