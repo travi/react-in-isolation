@@ -33,9 +33,9 @@
   },
   "devDependencies": {
     "@babel/register": "7.25.7",
-    "@storybook/addon-actions": "6.5.16",
+    "@storybook/addon-actions": "8.3.5",
     "@storybook/addon-info": "5.3.21",
-    "@storybook/addon-links": "6.5.16",
+    "@storybook/addon-links": "8.3.5",
     "@storybook/react": "8.3.5",
     "@travi/any": "3.1.2",
     "@travi/babel-preset": "3.0.133",
