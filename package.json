@@ -54,7 +54,7 @@
     "globstar": "1.0.0",
     "husky": "9.1.6",
     "mocha": "10.7.3",
-    "netlify-cli": "17.37.1",
+    "netlify-cli": "17.37.2",
     "npm-run-all2": "7.0.1",
     "react-test-renderer": "16.14.0",
     "remark-cli": "12.0.1",
