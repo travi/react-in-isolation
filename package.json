@@ -55,7 +55,7 @@
     "husky": "9.1.7",
     "mocha": "11.0.1",
     "netlify-cli": "17.38.0",
-    "npm-run-all2": "7.0.1",
+    "npm-run-all2": "7.0.2",
     "react-test-renderer": "16.14.0",
     "remark-cli": "12.0.1",
     "remark-preset-lint-travi": "6.0.6",
