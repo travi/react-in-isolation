@@ -53,7 +53,7 @@
     "enzyme-adapter-react-16": "1.15.8",
     "globstar": "1.0.0",
     "husky": "9.1.7",
-    "mocha": "11.2.2",
+    "mocha": "11.3.0",
     "netlify-cli": "21.4.2",
     "npm-run-all2": "8.0.2",
     "react-test-renderer": "16.14.0",
